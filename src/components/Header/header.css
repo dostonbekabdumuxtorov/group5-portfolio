@@ -1,0 +1,26 @@
+.header-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	height: 80px;
+	width: 100%;
+	z-index: 10;
+	left: 0px;
+}
+
+.navigations{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.navigations .link{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
